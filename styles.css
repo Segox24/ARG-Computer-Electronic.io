@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #253855;
+    background-image: url(img/FONTS/wp3689062.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav .logo {
+    height: 60px;
+    width: 50px;
+    margin-right: auto;
+}
+
+header {
+    background: url('img/BANNER/banner.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+}
+
+div {
+    padding: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: #b4a72f;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1{
+    color: #f1e149;
+    justify-content: center;
+    text-align: center;
+    font-size: 44px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h2, h3, h4 {
+    color: #f1e149; /* Cambiado el color del texto a blanco */
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h3{
+    font-size: 44px;
+    text-decoration: solid;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+div.WhatsApp{
+    text-align: center;
+    justify-content: center;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+section {
+    padding: 60px 20px;
+    margin-top: 70px; /* Para evitar que el contenido quede oculto detrás del nav fijo */
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333;
+}
+
+section p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;
+    color: #000000;
+}
+
+#inicio {
+    background: url('img/BANNER/banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#inicio h1 {
+    font-size: 40px;
+}
+
+#inicio p {
+    font-size: 18px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria div {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+.galeria div img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.galeria div p {
+    font-weight: bold;
+    color: #333;
+}
+
+.galeria div ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    color: #000000;
+}
+
+#map-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#map-container iframe {
+    width: 80%;
+    height: 400px;
+    border: none;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
+
+footer .social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .galeria div {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .galeria div {
+        width: calc(100% - 40px);
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: #fcfcfc; /* Cambiado el color de fondo a gris oscuro */
+    color: #fff; /* Cambiado el color del texto a blanco */
+    border: none;
+}
+
+form input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.redes-sociales {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover{
+    color: #ccc; /* Cambiado el color del texto a gris claro */
+}
+
+.galeria img {
+    width: auto;
+    height: auto;
+    border: 2px solid #000;
+    padding: 5px; 
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+
+div.contacto{
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
